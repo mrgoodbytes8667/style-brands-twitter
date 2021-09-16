@@ -1,0 +1,30 @@
+$twitter-color-main: #1da1f2;
+$twitter-color-alt: #005fd1;
+
+$twitter-white: #FFFFFF;
+
+@import "~@mrgoodbytes8667/style-brands/css/brand";
+
+.btn-twitter {
+  @include btn($twitter-color-main, $twitter-white);
+}
+
+.btn-twitter:hover {
+  @include btn-hover($twitter-color-main, $twitter-white);
+}
+
+.bg-twitter {
+  @include bg($twitter-color-main);
+}
+
+.text-twitter {
+  @include text($twitter-color-main);
+}
+
+.btn-twitter-white {
+  @include btn($twitter-white, $twitter-color-main);
+}
+
+.btn-twitter-white:hover {
+  @include btn-hover($twitter-white, $twitter-color-main, 10%);
+}

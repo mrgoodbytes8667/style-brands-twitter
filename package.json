@@ -1,0 +1,11 @@
+{
+  "name": "@mrgoodbytes8667/style-brands-twitter",
+  "version": "0.0.1",
+  "description": "Bootstrap inspired style classes for each Discord color",
+  "repository": "https://github.com/mrgoodbytes8667/style-brands-twitter",
+  "author": "MrGoodBytes <bytes@goodbytes.live>",
+  "license": "CC-BY-NC-4.0",
+  "dependencies": {
+    "@mrgoodbytes8667/style-brands": "https://github.com/mrgoodbytes8667/style-brands"
+  }
+}
